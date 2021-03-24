@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "products",
   "info": {
-    "name": "products"
+    "name": "products",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -21,6 +22,9 @@
     },
     "img_url": {
       "type": "string"
+    },
+    "description": {
+      "type": "text"
     }
   }
 }
